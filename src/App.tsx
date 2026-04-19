@@ -1,3 +1,6 @@
+import './styles/theme.css' 
+import './styles/global.css' //importando o estilo
+
 export function App() {
   console.log('Oi');
 
