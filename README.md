@@ -1,20 +1,36 @@
-## 🚧 Status do projeto
+# 🍅 Pomodoro System App
 
-Este projeto está em desenvolvimento ativo.
+## 🚀 About
 
-Atualmente estou evoluindo a aplicação com foco em:
+Pomodoro-based productivity application focused on task management, time tracking, and structured work cycles.
 
-* melhorias na arquitetura
-* refinamento da lógica de estado
-* ajustes de interface e experiência do usuário
-* preparação para deploy em produção
+---
 
-Atualizações frequentes estão sendo feitas.
+## 🚧 Project Status
 
-## 📌 Roadmap (próximas melhorias)
+This project is currently under active development.
 
-* [ ] Deploy da aplicação (Vercel)
-* [ ] Melhorias na UI/UX
-* [ ] Refatoração de componentes
-* [ ] Otimização de performance
-* [ ] Adição de novas funcionalidades
+Current focus:
+
+* improving architecture
+* refining state management
+* enhancing UI/UX
+* preparing for production deployment
+
+Frequent updates are being made.
+
+---
+
+## 📌 Roadmap
+
+* [ ] Deploy application (Vercel)
+* [ ] Improve UI/UX
+* [ ] Refactor components
+* [ ] Optimize performance
+* [ ] Add new features
+
+---
+
+## 📄 License
+
+MIT
