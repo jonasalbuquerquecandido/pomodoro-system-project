@@ -6,7 +6,7 @@ import './styles/global.css' //importando o estilo
 export function App() {
   return (
     <>   {/* <> react fragment, abre uma div/elemento pai sem nomea-lo */}
-      <Heading attr={123} attr2='string'>Olá Mundo!</Heading>
+      <Heading>Olá Mundo!</Heading>
       
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate,
