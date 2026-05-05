@@ -2,24 +2,22 @@
 
 ## 🚀 About
 
-Pomodoro-based productivity application designed to manage tasks, track focus cycles, and improve time management.
+A productivity application based on the Pomodoro technique, designed to manage tasks, control focus cycles, and track user performance over time.
 
-The project aims to simulate a real-world productivity tool, focusing on building a scalable front-end architecture and efficient state management.
+This project focuses on simulating a real-world application, applying modern front-end architecture, scalable state management, and performance optimization techniques.
 
 ---
 
-## 🚧 Project Status
+## 🧠 Key Concepts Applied
 
-This project is currently under active development.
-
-Current focus:
-
-* improving application architecture
-* refining state management logic
-* enhancing UI/UX
-* preparing for production deployment
-
-Frequent updates are being made as the project evolves.
+* Global state management using Context API
+* Complex state handling with useReducer
+* Side effects control with useEffect
+* Component-based architecture and separation of concerns
+* Controlled forms and validation
+* Local persistence using localStorage
+* Performance optimization using useRef and Web Workers
+* Routing with React Router
 
 ---
 
@@ -28,44 +26,30 @@ Frequent updates are being made as the project evolves.
 * React
 * TypeScript
 * Vite
+* React Router
 
 ---
 
-## ⚙️ Current Features
+## ⚙️ Features
 
-* Pomodoro timer structure (in progress)
-* Task management system (in progress)
-* Cycle tracking logic (in progress)
-* Responsive interface (being improved)
+* ⏱️ Pomodoro timer with work and break cycles
+* ✅ Task creation and management
+* 🔄 Cycle tracking system (work / short break / long break)
+* 🌙 Light/Dark mode with persistence
+* 💾 Data persistence using localStorage
+* 🔔 Notifications and feedback (toast messages)
+* 📊 Task history tracking
+* ⚡ Real-time countdown updates (Web Worker)
 
 ---
 
 ## 📌 Roadmap
 
-* [ ] Deploy application (Vercel)
-* [ ] Improve UI/UX
-* [ ] Refactor components
-* [ ] Optimize performance
-* [ ] Add new features
-* [ ] Implement persistent storage (localStorage or API)
-
----
-
-## 💻 Getting Started
-
-```bash id="p9x2md"
-# Clone the repository
-git clone https://github.com/your-username/pomodoro-system-project
-
-# Navigate to the project folder
-cd pomodoro-system-project
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-```
+* [ ] Improve UI/UX design system
+* [ ] Add analytics dashboard (study time, productivity stats)
+* [ ] Implement user authentication (future backend integration)
+* [ ] Convert to full-stack application (API integration)
+* [ ] Improve accessibility (a11y)
 
 ---
 
@@ -75,9 +59,20 @@ npm run dev
 
 ---
 
-## 🌐 Deploy
+## 🌐 Live Demo
 
-(To be added)
+(To be added after deploy)
+
+---
+
+## 💻 Getting Started
+
+```bash
+git clone https://github.com/your-username/pomodoro-system-project
+cd pomodoro-system-project
+npm install
+npm run dev
+```
 
 ---
 
