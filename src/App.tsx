@@ -19,7 +19,23 @@ export function App() {
         <div className='container'>
           <div className='content'>
             <section>
-              MENU
+
+            <buttton>
+              <House />
+            </buttton>
+
+             <buttton>
+              <History />
+            </buttton>
+
+             <buttton>
+              <Settings />
+            </buttton>
+
+             <buttton>
+              <Sun />
+            </buttton>
+
             </section>
           </div>
         </div> 
