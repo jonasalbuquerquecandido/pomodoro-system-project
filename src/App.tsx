@@ -1,15 +1,15 @@
-import { Timer, Settings, History, House, Sun } from 'lucide-react';
+import { Heading } from './components/Heading';
+import { Container } from './components/Container';
+import { Logo } from './components/Logo';
 
 import './styles/theme.css';
 import './styles/global.css'; //importando o estilo
-import { Heading } from './components/Heading';
-import { Container } from './components/Container';
 
 export function App() {
   return (
     <>
       <Container>
-        <Heading>Logo</Heading>
+        <Logo />
       </Container>
 
       <Container>
