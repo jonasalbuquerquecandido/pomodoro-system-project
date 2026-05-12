@@ -1,10 +1,12 @@
+import './styles/global.css'; //importando o estilo
+import './styles/theme.css';
+
 import { Menu } from './components/Menu';
 import { Container } from './components/Container';
 import { Logo } from './components/Logo';
 import { CountDown } from './components/CountDown';
+import { DefaultInput } from './components/DefaultInput';
 
-import './styles/theme.css';
-import './styles/global.css'; //importando o estilo
 
 export function App() {
   return (
@@ -24,8 +26,7 @@ export function App() {
       <Container>
         <form action="" className="form">
           <div className="formRow">
-            <label htmlFor="input">task</label>
-            <input type="text" id="input" />
+            <DefaultInput labelText="task:" id="meuInput" type="text"/>
           </div>
 
           <div className="formRow">
