@@ -11,24 +11,23 @@ import { DefaultButton } from './components/DefaultButton';
 import { PlayCircleIcon } from 'lucide-react';
 import { Footer } from './components/Footer';
 import { Heading } from './components/Heading';
+import { useState } from 'react';
 
 export function App() {
-  let numero = 0;
+  const [numero, setNumero] = useState(0);
+  //   console.log('lazy initialization')
+    
+  //   return 0
+  // });
 
   function handleClick() {
-    const span = document.getElementById('numero')
-
-    if (!span) return;
-
-    numero += 1;
-    span.innerText = numero.toString()
-    console.log(numero, Date.now());
+    setNumero((prevState => prevState + 1));
   }
 
   return (
     <>
       <Heading>
-        Número: <span id='numero'>{numero}</span>{' '}
+        Número: {numero}
       </Heading>
       <button onClick={handleClick}>Aumenta</button>
       <Container>
