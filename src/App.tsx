@@ -12,9 +12,9 @@ import { PlayCircleIcon } from 'lucide-react';
 import { Footer } from './components/Footer';
 
 export function App() {
+  
   return (
     <>
-
       <Container>
         <Logo />
       </Container>
