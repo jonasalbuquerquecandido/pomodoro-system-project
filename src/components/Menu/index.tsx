@@ -1,5 +1,5 @@
 import styles from './styles.module.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { House, History, Settings, Sun } from 'lucide-react';
 
 type AvailableThemes = 'dark' | 'light';
@@ -10,9 +10,23 @@ export function Menu() {
   function handleThemeChange(
     event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
   ) {
-    event.preventDefault() //não seguir a ordem padrão
-    console.log('Clicado', Date.now());
+    event.preventDefault(); //não seguir a ordem padrão
+
+    setTheme(prevTheme => {
+      const nextTheme = prevTheme === 'dark' ? 'light' : 'dark';
+      return nextTheme;
+    });
   }
+
+ 
+  useEffect(() => {
+    console.log('Theme changed', Date.now());
+    document.documentElement.setAttribute('data-theme', theme)
+
+    return () => {
+      console.log('Olha, o componete será atualizado.') //limpeza de ruído
+    }
+  }, [theme]);
 
   return (
     <nav className={styles.menu}>
