@@ -6,6 +6,6 @@ export default defineConfig({
   base: '/pomodoro-system-project/',
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
+    babel({ presets: [reactCompilerPreset()] }),
   ],
 })
